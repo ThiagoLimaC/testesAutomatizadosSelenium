@@ -1,5 +1,7 @@
 # Teste - BestStoreMVC
 
+<img src="video-beststore.gif" width="700">
+
 ## Definição da aplicação web a ser testada
 
 O **BestStoreMVC** é uma aplicação web desenvolvida com Blazor e .NET 9 para gerenciamento eficiente de produtos. Ele oferece uma interface moderna e responsiva para facilitar a criação, edição, visualização e exclusão de itens.
