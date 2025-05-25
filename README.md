@@ -52,3 +52,29 @@ Apresentação correta das informações dos produtos cadastrados.
 1. Exibição de mensagens de erro e feedback ao usuário.
 
 2. Comportamento correto dos botões de ação (salvar, editar, excluir).
+
+**********************************************************************************************************************************************
+
+<h1 align="center">Teste_Cadastro_Novo_Produto</h1>
+
+| Condição               | Regra 1   | Regra 2                                           | Regra 3                                           | Regra 4                                           | Regra 5                                                |
+|------------------------|-----------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|----------------------------------------------------------|
+| nome preenchido        | SIM       | NÃO                                               | SIM                                               | SIM                                               | SIM                                                      |
+| marca preenchida       | SIM       | SIM                                               | NÃO                                               | SIM                                               | SIM                                                      |
+| categoria selecionada  | SIM       | SIM                                               | SIM                                               | SIM                                               | SIM                                                      |
+| preço preenchido       | SIM       | SIM                                               | SIM                                               | NÃO                                               | SIM                                                      |
+| descrição preenchida   | SIM       | SIM                                               | SIM                                               | SIM                                               | NÃO                                                      |
+| **ação esperada**      | Criação OK | Mensagem de erro ("O campo Nome é obrigatório.") | Mensagem de erro ("O campo Marca é obrigatório.") | Mensagem de erro ("O valor '' é inválido.")       | Mensagem de erro ("O campo Descrição é obrigatório.")    |
+
+## Observações sobre a Tabela de Decisão
+
+Pode-se concluir que, **caso qualquer uma das propriedades obrigatórias do produto não seja preenchida, o cadastro não será efetuado com sucesso**.
+
+Em relação à categoria, **não foi realizado um teste com esse campo vazio porque o sistema oferece uma lista fechada de opções predefinidas (como "Phones", "Computers", "Accessories" e "Outros")**. Portanto, **a categoria sempre estará preenchida por padrão, não sendo possível deixá-la em branco**.
+
+### Pontos de Atenção:
+- O campo **preço é obrigatório**, e sua ausência impede o cadastro.
+- Contudo, o sistema **aceita o valor zero (0)** como um preço válido.  
+  Isso levanta a seguinte questão: **esse comportamento é realmente desejado?**  
+  Em muitos contextos, um produto com preço igual a zero pode representar uma falha de entrada ou indicar a necessidade de uma validação adicional.
+
