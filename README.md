@@ -238,4 +238,17 @@ Em relação à categoria, **não foi realizado um teste com esse campo vazio po
 1. Clicar no botão "Excluir".
 2. Na janela/modal de confirmação, clicar em "Cancelar".
 
-**Resultado Esperado**: Produto não é deletado. Nenhuma alteração é feita. O usuário permanece na mesma tela.
+**Resultado Esperado**: Produto não é deletado. Nenhuma alteração é feita. O usuário permanece na mesma tela.\
+
+---
+
+## Prints dos logs de execução
+
+### ➕ Adicionando um produto
+<img src="add.PNG" width="700">
+
+### ✏ Editando um produto
+<img src="edit.PNG" width="700">
+
+### 🗑 Excluindo um produto
+<img src="delete.PNG" width="700">
