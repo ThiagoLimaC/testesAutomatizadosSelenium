@@ -252,3 +252,6 @@ Em relação à categoria, **não foi realizado um teste com esse campo vazio po
 
 ### 🗑 Deletando um produto
 <img src="img/delete.PNG" width="700">
+
+### ✅ Testes Unitários
+<img src="img/unit.png" width="700">
