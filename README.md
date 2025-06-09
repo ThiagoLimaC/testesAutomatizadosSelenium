@@ -1,6 +1,6 @@
 # Teste - BestStoreMVC
 
-<img src="video-beststore.gif" width="700">
+<img src="img/videoBestStoreFlask.gif" width="700">
 
 ## Definição da aplicação web a ser testada
 
@@ -245,10 +245,10 @@ Em relação à categoria, **não foi realizado um teste com esse campo vazio po
 ## Prints dos logs de execução
 
 ### ➕ Adicionando um produto
-<img src="add.PNG" width="700">
+<img src="img/add.PNG" width="700">
 
 ### ✏ Editando um produto
-<img src="edit.PNG" width="700">
+<img src="img/edit.PNG" width="700">
 
-### 🗑 Excluindo um produto
-<img src="delete.PNG" width="700">
+### 🗑 Deletando um produto
+<img src="img/delete.PNG" width="700">
